@@ -6,8 +6,8 @@
     "description": "Remove AWS brand in your SnapTo application",
     "authors": [
         {
-            "name": "Basic Technology Software Co., Ltd.",
-            "email": "contact@b-teka.com"
+            "name": "Snaptec Limited",
+            "email": "info@snaptec.ltd"
         }
     ],
     "autoload": {
