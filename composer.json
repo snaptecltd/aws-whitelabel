@@ -1,0 +1,28 @@
+{
+    "name": "snaptec/aws-whitelabel",
+    "title": "AWS Whitelabel Plugin For Snaptec",
+    "version": "1.0.3",
+    "app_version": "4.0.24-p103",
+    "description": "Remove AWS brand in your SnapTo application",
+    "authors": [
+        {
+            "name": "Basic Technology Software Co., Ltd.",
+            "email": "contact@b-teka.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Snaptec\\Plugin\\AwsWhitelabel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Snaptec\\Plugin\\AwsWhitelabel\\ServiceProvider"
+            ]
+        },
+        "setting-route": "\\Snaptec\\Plugin\\AwsWhitelabel\\Controllers\\MainController@index"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
